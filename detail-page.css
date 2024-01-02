@@ -1,0 +1,47 @@
+.showDetailsBtn {
+
+    color: white;
+    border-bottom: 1px solid orange;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.hidden-details {
+    width: 90%;
+    margin: 0px auto;
+    display: none;
+    color: white;
+
+}
+
+button {
+    border: none;
+    outline-color: none;
+    background-color: none;
+    margin: 12px 40px;
+    padding: 10px;
+    font-weight: bolder;
+
+}
+
+.outerbox {
+    width: 70%;
+    border: 2px solid orange;
+    border-radius: 30px;
+    height: 800px;
+}
+
+.visible-details {
+    max-height: 500px;
+    /* Adjust this value based on your content height */
+}
+.showDetailsBtn img{
+    height: 9px;
+    width: 18px;
+    padding: 13.5px 8.5px 13.5px 8.5px;
+    background-color: white;
+    border: 1px black;
+    border-radius: 50%;
+    float: right;
+    
+}

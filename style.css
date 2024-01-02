@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Mukta&family=Poppins:wght@500&family=REM:wght@300&family=Roboto&family=Titillium+Web:wght@600&family=Varela+Round&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    width: 100vw;
+    background-color: rgb(18, 18, 18);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    min-height: 100vh;
+
+}
+
+aside {
+    background-color: rgb(23, 22, 22);
+    padding: 20px;
+    position: sticky;
+    width: 230px;
+    top: 86px;
+    height: 100vh;
+
+}
+
+.telegram-btn {
+    font-size: 25px;
+    padding: 12px 16px;
+    border-radius: 25px;
+    background-color: #e9a110;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    top: 186px;
+    left: 4px;
+    justify-content: center;
+    margin: 0;
+    margin-top: 100px;
+}
+
+main {
+    background-color: rgb(18, 18, 18);
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1184px;
+    height: auto;
+    overflow-y: hidden;
+
+}
+
+
+h1 {
+    color: #333;
+    font-size: ( 2.0rem, 3.0vw, 3.0vh) !important;
+}
+
+header {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    height: 87px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+
+}
+
+nav ul {
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+header nav ul li {
+    margin: 0;
+    list-style: none;
+}
+
+.getFree {
+    color: black;
+    font-size: 20px;
+    width: 140px;
+    height: 40px;
+    font-weight: bold;
+    background-color: #e9a110;
+    margin-top: 23px;
+    margin-left: -70px;
+    border-radius: 25px;
+    padding: 5px 5px;
+}
+
+.sikka {
+    color: #e9a110;
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.heading {
+    font-size: 36px;
+    color: white;
+    margin: 4px 0 0px 0px;
+}
+
+.logo {
+    width: 100px;
+    height: 55px;
+    margin: 10px 0px 0px 50px;
+
+}
+
+.headingPara {
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    margin: 20px 10px;
+}
+
+ul li {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 57px 0px -28px -20px;
+    color: white;
+}
+
+.main-header-box{
+    height: auto;
+    min-height: fit-content;
+    width: 95%;
+    border: 2px solid transparent;
+    background-image: linear-gradient(black, black), radial-gradient(circle at top, #e9a110,transparent);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    margin: 10px 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 9;
+}
+
+.content-box {
+    height: auto;
+    min-height: fit-content;
+    width: calc(100% - 2px);
+    border: 2px solid transparent;
+    border-radius: 30px;
+    /* margin: 10px 22px; */
+    background-image: url("./images/team'.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+    align-items: center;
+    justify-items: center;
+}
+
+.text {
+    text-align: center;
+    margin-top: 408px;
+}
+
+.text h2 {
+    font-size: 32px;
+    line-height: 16px;
+    color: #e9a110;
+}
+
+.text p {
+    color: #fff;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.btn {
+    padding: 7px 20px;
+    border-radius: 25px;
+    font-size: 26px;
+    background-color: #e9a110;
+    font-weight: 600;
+    /* margin: 0 40px; */
+}
+
+#p-1 {
+    margin-top: -17px;
+    margin-bottom: 11px;
+    padding: 0px 45px 0px 45px 
+}
+
+/* Guide page */
+
+
+/* Partner Page */
+
+
+/* play Games    */
+
+
+
+
+
+/* Featuers Page */
+
+
+/* Update Page */
+
+
+/* FAQ-Page */
+
+
+
+
+/* Details Section */
+
+
+
+
+/* Media Query */
+
+@media (width < 1200px) {
+    .update-section-2{
+        flex-wrap: wrap !important;
+        align-items: center !important;
+    }
+}
+
+/* For Small Screen Desktops */
+@media only screen and (max-width: 1440px) {
+    .guide {
+        flex-wrap: wrap !important;
+    }
+}
+
+/* For Tabs */
+@media only screen and (max-width: 920px) {
+
+    aside {
+        display: none !important;
+        width: 0% !important;
+        height: 0% !important;
+    }
+
+    .heading {
+        display: none;
+    }
+
+    .headingPara {
+        display: none;
+    }
+
+    main {
+        padding: 10px 10px 10px 10px;
+        margin: 0;
+        display: flex;
+        width: 100vw;
+        align-items: center;
+    }
+
+    .text h2 {
+        font-size: 19px;
+    }
+
+    .update-section-2 {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+}
+
+/* For Mobile */
+
+@media (width < 600px ) {
+
+    .content-box{
+        max-height: 342px;
+    }
+
+    .text{
+        margin-top: 188px;
+    }
+
+    .text h2{
+        font-size: 14px;
+    }
+
+    .text p{
+        font-size: 8.95px;
+    }
+
+    #p-1{
+        margin-top: 10px;
+    }
+
+    .guide-video{
+        scale: 0.6;
+        margin: -113px 10px !important;
+    }
+    
+    .guide-box h1{
+            font-size: 27px !important;
+    }
+
+    .guide-box h2{
+        font-size: 14px !important;
+}
+
+    .guide-subbox p{
+        font-size: 9px !important;
+    }
+
+
+    .btn{
+        padding: 4px 17px;
+    border-radius: 25px;
+    font-size: 13.93px;
+    margin-top: 1px;
+    }
+    
+        h1 {
+            font-size: 30px;
+            line-height: 38px;
+            margin: 30px 10px;
+        }
+
+        .guide-box h1 {
+            margin: 15px 10px;
+        }
+    
+    #game-1 {
+        margin-left: 28px;
+    }
+
+    .features-box {
+        min-width: 319px !important;
+    }
+
+    .list-container li{
+        font-size: 15.92px !important;
+    }
+
+    .list-container h1{
+        font-size: 40px !important;
+    }
+    
+    .list-container h3{
+        font-size: 17px !important;
+    }
+
+    .heading {
+        display: none;
+    }
+
+    .headingPara {
+        display: none;
+    }
+
+    .hidden-details p{
+        font-size: 13px !important;
+    }
+
+    aside {
+        display: none !important;
+        width: 0% !important;
+        height: 0% !important;
+    }
+
+    main {
+        padding: 10px 10px 10px 10px;
+        margin: 0;
+        display: flex;
+        width: 100vw;
+    }
+
+    .partner {
+        height: fit-content;
+    }
+
+    .partner-grid {
+        display: flex;
+        justify-content: flex-start !important;
+        flex-wrap: nowrap !important;
+        flex-direction: row !important;
+        overflow: scroll;
+    }
+
+    .partner-box h3 {
+        font-size: 17px !important;
+    }
+
+    .showDetailsBtn h3{
+        font-size: 12px;
+    }
+}
+
+/* For Keypad or small screen smartphones */
+
+@media (width < 380px) {
+    .getFree{
+        display: none !important;
+        width: 0% !important;
+        height: 0% !important;
+    }
+
+    .logo{
+        align-items: center !important;
+    }
+
+}

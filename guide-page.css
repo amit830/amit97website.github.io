@@ -1,0 +1,137 @@
+.guide {
+    height: auto;
+    width: 95%;
+    background-color: black;
+    border: 2px solid transparent;
+    background-image: linear-gradient(black, black), radial-gradient(circle at top, #e9a110,transparent);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 30px;
+    margin: 10px 22px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.guide-box {
+    max-width: 1126px;
+    width: fit-content;
+    height: auto;
+    margin: 26px 10px;
+    border-radius: 35px;
+    text-align: center;
+    float: left;
+}
+
+.guide-video {
+    width: 536.52px;
+    height: 635.19px ;
+    border: 2px solid rgb(233, 161, 16);
+    margin: 26px 10px;
+    border-radius: 35px;
+    text-align: center;
+    z-index: 1;
+}
+.Rectangle7{
+    left: 1px !important;
+    top: -210px !important;
+    position: relative !important;
+    z-index: 3;
+}
+.Rectangle8{
+    position: relative !important;
+    top: -843px !important;
+    z-index: 1;
+}
+
+.guide-text{
+    position: relative;
+    bottom: 1312px;
+    left: 0px;
+    z-index: 5;
+    justify-content: center;
+}
+.guide-text h1{
+    margin-bottom: -35px;
+}
+
+.man-img-1 {
+    opacity: .9;
+    aspect-ratio: 0;
+    scale: 2;
+    position:relative;
+    bottom: 1332px;
+    right: 26px;
+    z-index: revert;
+}
+
+#play {
+    margin: 10px 10px 10px 10px;
+    z-index: 5;
+    position: relative;
+    top: 242px;
+    left: -25px;
+}
+
+.guide-box h1 {
+    color: rgb(233, 161, 16);
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0.5%;
+    display: inline-block;
+}
+
+.guide-box center h1{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+   
+}
+.guide-subbox {
+    border: 1px solid rgb(233, 161, 16);
+    border-radius: 35px;
+    width: 90%;
+    height: auto;
+    text-align: left;
+
+    margin: 15px auto 0px;
+    display: flex;
+}
+
+#photo-guide-box {
+    background-image: linear-gradient(orange, black);
+    z-index: 3;
+
+}
+
+.guide-subbox img {
+    width: 80px;
+    height: 60px;
+    margin: 11px 13px 11px 13px;
+}
+
+
+.guide-subbox h2 {
+    font-size: 30px;
+    margin: 9px 10px 0px 0px;
+}
+
+.guide-subbox p {
+    font-weight: 500;
+    margin: 7px 29px 9px 0px;
+    font-size: 18px;
+}
+
+.orange {
+    color: rgb(233, 161, 16);
+}
+
+.white {
+    color: white;
+}

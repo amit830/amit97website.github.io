@@ -1,0 +1,108 @@
+.play-game {
+    background-color: black;
+    height: fit-content;
+    border: 2px solid transparent;
+    background-image: linear-gradient(black, black), radial-gradient(circle at top, #e9a110,transparent);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    width: 95%;
+    border-radius: 30px;
+    margin: 10px 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.play-game-heading {
+    width: 100%;
+    border-bottom: 2px solid #e9a110;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 25px 24px 0 0;
+}
+
+.play-game .partner-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.play-box-container {
+    display: flex;
+    height: fit-content;
+}
+
+.partner-grid .play-game-box {
+    border: 2px solid transparent;
+    border-radius: 35px;
+    min-width: 243px;
+    min-height: 250px;
+    margin: 21px 12px 45px 0px;
+    margin-bottom: 0px;
+    background-color: #1E1E1E;
+    background-image: linear-gradient(#1e1e1e, #1e1e1e), radial-gradient(circle at top, #e9a110,transparent);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+}
+
+.play-game-box img {
+    align-items: center;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+.play-game-box h4 {
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
+    margin: 0px 0px -13px 12px 
+}
+
+.play-game-box p {
+    color: white;
+    font-size: 13px;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 16.70px;
+    margin: 13px 0px 8px 11px;
+}
+
+.play-now {
+    padding: 6px 30px;
+    background-color: #e9a110;
+    border: 2px solid orange;
+    border-radius: 35px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    margin: 0px 3px 10px 37px;
+}
+
+.Explore-Button-Container {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding: 0px 0px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+#play-now-btn {
+    margin-top: 17px;
+    padding: 6px 30px;
+    background-color: #e9a110;
+    border-radius: 35px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    margin: 0px 0px 28px 0px;
+    height: fit-content;
+}

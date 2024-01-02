@@ -1,0 +1,35 @@
+.faq {
+    background-color: black;
+    height: 1100px;
+    border: 2px solid transparent;
+    background-image: linear-gradient(black, black), radial-gradient(circle at top, #e9a110,transparent);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    width: 95%;
+    border-radius: 30px;
+    margin: 10px 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.faq-page-heading {
+    width: 100%;
+    border-bottom: 2px solid orange;
+    height: 120px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 25px 24px 0 0;
+    color: #e9a110;
+}
+
+details summary {
+    color: #fff;
+}
+

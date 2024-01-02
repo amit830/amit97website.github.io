@@ -1,0 +1,68 @@
+.features {
+    background-color: black;
+    height: fit-content;
+    border: 2px solid transparent;
+    background-image: linear-gradient(black, black), radial-gradient(circle at top, #e9a110,transparent);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    width: 95%;
+    border-radius: 30px;
+    margin: 10px 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-page-heading {
+    width: 100%;
+    border-bottom: 2px solid #e9a110;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 25px 24px 0 0;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.features-box {
+    border: 2px solid transparent;
+    border-radius: 25px;
+    min-width: 85%;
+    min-height: 285px;
+    margin: 25px;
+    text-align: center;
+    background-color: #1E1E1E;
+    background-image: linear-gradient(#1e1e1e, #1e1e1e), radial-gradient(circle at top, #e9a110,transparent);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.features-box img {
+    margin-top: 11px;
+}
+
+.features-box h3 {
+    color: #e9a110;
+    font-weight: 550;
+
+}
+
+.features-box p {
+    color: #fff;
+    font-weight: 530;
+    font-size: 14px;
+    padding: 0px 35px 0px 35px;
+
+}
+
+#last-box {
+    min-width: 85%;
+    min-height: 285px;
+}
+
+#Join-our-Community{
+    margin: 0px 0px 28px 0px;
+}
